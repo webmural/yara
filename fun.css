@@ -1,0 +1,15 @@
+/*
+https://s9a.page/violet
+*/
+
+.viola * { background: transparent; color:inherit }
+.viola.viola { color:var(--loyal); background:var(--petal) }
+.viola.ouija { color:var(--petal); background:var(--loyal) }
+.viola ::selection { color: #090909; background: #ec0 }
+
+.viola { --petal: #bae; --loyal: indigo }
+.violet { --petal: violet; --loyal: indigo }
+.blueviolet { --petal: blueviolet; --loyal: floralwhite }
+.darkviolet { --petal: darkviolet; --loyal: floralwhite }
+.palevioletred { --petal: palevioletred; --loyal: navy }
+.mediumvioletred { --petal: mediumvioletred; --loyal: floralwhite }

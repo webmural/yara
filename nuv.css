@@ -1,0 +1,56 @@
+html {
+  font-family: fantasy;
+  font-size: max(3ch, 3vmax + 3vmin);
+  line-height: 1.61803399;
+}
+
+body {
+  margin: 1ch;
+  overflow-wrap: anywhere;
+}
+
+article {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 1ch;
+}
+
+samp {
+  display: inline-block;
+  font-size: 3em;
+  transform: rotate(163deg);
+}
+
+html:target {
+  filter: hue-rotate(30deg);
+}
+
+h1 {
+  margin: 0;
+  margin-inline-end: 1em;
+}
+
+a {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: -1em;
+  padding-top: 1em;
+}
+
+h1 a {
+  border-bottom: 1em dotted;
+}
+
+:any-link {
+  text-decoration: 1em dotted overline;
+}
+
+:focus {
+  text-shadow: 0 0 2ex;
+  box-shadow: 0 0 1ex 1ex;
+  outline: thick groove;
+  text-decoration-style: dotted;
+}
